@@ -14,10 +14,17 @@ The system provides a code to enter, inorder to avoid uncounfortable visitors, k
 To acces to every single section with just one click
 ![ScreenShot](http://i61.tinypic.com/24ndye1.png)
 
+# Relationship timeline
+Tell your love history to whoever you want
+![ScreenShot](http://i60.tinypic.com/zx1995.png)
+
 # Image & video Gallery
 Share your media with your people
 ![ScreenShot](http://i62.tinypic.com/9a1i6f.png)
 
-# Relationship timeline
-Tell your love history to whoever you want
-![ScreenShot](http://i60.tinypic.com/zx1995.png)
+# Responsive!
+Use your mobile and enjoy!
+![ScreenShot](http://i59.tinypic.com/aau1p3.png)
+![ScreenShot](http://i57.tinypic.com/13yfbea.png)
+
+
