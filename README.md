@@ -26,7 +26,7 @@ Share your media with your people
 # Responsive!
 Use your mobile and enjoy!
 
-![ScreenShot](http://i59.tinypic.com/aau1p3.png)
-![ScreenShot](http://i57.tinypic.com/13yfbea.png)
+<img src="http://i59.tinypic.com/aau1p3.png" alt="Lock page" width="48%" height="auto"/>
+<img src="http://i57.tinypic.com/13yfbea.png" alt="Lock page" width="48%" height="auto"/>
 
 
