@@ -7,9 +7,17 @@ An HTML5 responsive design using jquery waypoints &amp; scroll-to for a pleasant
  - responsive (using media queries)
 
 # Lock screen
-the system provides a code to enter
+The system provides a code to enter, inorder to avoid uncounfortable visitors, keeping private
 ![ScreenShot](http://i57.tinypic.com/2ebu105.png)
 
 # Main page with Floating navbar
-to acces to every single section with just one click
+To acces to every single section with just one click
 ![ScreenShot](http://i61.tinypic.com/24ndye1.png)
+
+# Image & video Gallery
+Share your media with your people
+![ScreenShot](http://i62.tinypic.com/9a1i6f.png)
+
+# Relationship timeline
+Tell your love history to whoever you want
+![ScreenShot](http://i60.tinypic.com/zx1995.png)
