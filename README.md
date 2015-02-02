@@ -1,13 +1,14 @@
-# wedding_node
+# wedding template page
+
 An HTML5 responsive design using jquery waypoints &amp; scroll-to for a pleasant single-page navigation. This template makes use of media queries and scales well for all mobile form-factors. Built with Node.js &amp; bootstrap3
 
  Features:
- - contact site (sending email using nodemailer)
- - block page to prevent uncounfortable visitors
- - responsive (using media queries)
+ - Contact site (sending email using nodemailer)
+ - Block page to prevent uncounfortable visitors
+ - Responsive (using media queries)
 
 # Lock screen
-The system provides a code to enter, inorder to avoid uncounfortable visitors, keeping private
+The system provides a code to enter, ino rder to avoid uncomfortable visitors, keeping private
 ![ScreenShot](http://i57.tinypic.com/2ebu105.png)
 
 # Main page with Floating navbar
