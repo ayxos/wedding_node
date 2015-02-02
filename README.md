@@ -8,7 +8,7 @@ An HTML5 responsive design using jquery waypoints &amp; scroll-to for a pleasant
  - Responsive (using media queries)
 
 # Lock screen
-The system provides a code to enter, ino rder to avoid uncomfortable visitors, keeping private
+The system provides a code to enter, in order to avoid uncomfortable visitors, keeping it private
 ![ScreenShot](http://i57.tinypic.com/2ebu105.png)
 
 # Main page with Floating navbar
