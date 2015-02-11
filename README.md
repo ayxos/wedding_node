@@ -6,6 +6,40 @@ An HTML5 responsive design using jquery waypoints &amp; scroll-to for a pleasant
  - Contact site (sending email using nodemailer)
  - Block page to prevent uncounfortable visitors
  - Responsive (using media queries)
+ - just config initial values
+
+# Config file
+In order to run the system you just need to set some minor values inside config.js file
+
+````
+config.account = {
+	service: 'gmail',
+	user: 'client@clientdomain.com',
+	pass: 'clientpass'
+};
+
+config.mail = {
+	from: 'Wedding Jane&Doe ✔ <weddingjanedoe@gmail.com>',
+	subject: '¡Hi! ✔',
+	mailHtml: function(req){
+		return '<div><strong>Hi, you got a new message from: <br>' + req.body.name + ' (' + req.body.mail + ')</strong></div>' + '<br>' + req.body.subject + '<br><p>' + req.body.text + '</p>';  
+	}
+};
+
+config.report = {
+	mail: 'reportmail@domain.com',
+	mailHtml: function(req){
+		return '<div><strong>Hi, someone has been trying to access using: <br>' + req.body.code + ' (' + req.body.ip + ')</strong> With the pass: <strong>' + req.body.code + '</strong></div>';
+	}
+};
+
+config.domain = 'janeDoe';
+
+config.accessCode = 'myAccessCode';
+
+config.port = 7989;
+`````
+
 
 # Lock screen
 The system provides a code to enter, in order to avoid uncomfortable visitors, keeping it private
