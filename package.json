@@ -1,0 +1,32 @@
+{
+  "name": "angular-todo",
+  "version": "0.0.1",
+  "description": "Simple Angular TODO app based in MEAN stack",
+  "main": "server.js",
+  "author": "Carlos Azaustre <cazaustre@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "express": "^4.3.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jade": "^1.9.2",
+    "json": "0.0.14",
+    "method-override": "^1.0.0",
+    "mongoose": "~3.6.2",
+    "morgan": "^1.0.0",
+    "nodemailer": "^1.3.0",
+    "pmx": "^0.2.32",
+    "static-favicon": "^1.0.2"
+  },
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "grunt": "0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-newer": "*",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1"
+  }
+}

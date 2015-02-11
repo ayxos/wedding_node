@@ -1,0 +1,249 @@
+/*
+	========================================
+	DITINGGAL RABI WEDDING INVITATION THEME
+	========================================
+	
+	@author			: @avriqq
+	@version		: v1.1
+	@date-create	: 06/22/2013
+	@last-update	: 04/22/2014
+	@file-name		: responsive
+
+*/
+
+@media (max-width: 767px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar-default{
+		border-bottom: 1px solid #ddd;
+	}
+
+	.navbar-default .navbar-nav{
+		width: 100%;
+		display: block;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		display: block;
+		padding: 12px 15px;
+		-webkit-border-radius: 2px;
+		   -moz-border-radius: 2px;
+			 -o-border-radius: 2px;
+				border-radius: 2px;
+	}
+
+	/* timeline */
+	.content ul {
+		padding: 1em 2em 6em 2em;
+	}
+	
+	.content-item {
+		left: auto;
+		right: auto;
+		float: none;
+		width: 80%;
+		margin: 80px auto 0 auto;
+	}
+
+	.content-item img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		
+	.content-item:nth-child(even){
+		left: auto;
+		right: auto;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.content-item:nth-child(even):after,
+	.content-item:nth-child(even):before,
+	.content-item:after,
+	.content-item:before {
+		top: -20px;
+		right: 50%;
+		left: 50%;
+		margin-top: 0;
+		margin-left: -16px;
+	}
+	
+	.content-item:nth-child(even):before,
+	.content-item:before {
+		display: inline-block;
+		font-family: FontAwesome;
+		font-style: normal;
+		speak: none;
+		content: '\f0d8';
+	}
+	
+	.content-item:nth-child(even):after,
+	.content-item:after {
+		display: inline-block;
+		font-family: 'FontAwesome';
+		font-style: normal;
+		speak: none;
+		content: '\f040';
+		top: -50px;
+	}
+	
+	.content-item:nth-child(even).content-quote:after,
+	.content-quote:after{
+		font-family: 'FontAwesome';
+		content: '\f10e';
+	}
+
+	.content-item:nth-child(even).content-text:after,
+	.content-text:after{
+		font-family: 'FontAwesome';
+		content: '\f15c';
+	}
+
+	.content-item:nth-child(even).content-photo:after,
+	.content-photo:after{
+		font-family: 'FontAwesome';
+		content: '\f03e';
+	}
+
+	.content-item:nth-child(even).content-chat:after,
+	.content-chat:after{
+		font-family: 'FontAwesome';
+		content: '\f0e6';
+	}
+
+	.content-item:nth-child(even).content-audio:after,
+	.content-audio:after{
+		font-family: 'FontAwesome';
+		content: '\f025';
+	}
+
+	.content-item:nth-child(even).content-video:after,
+	.content-video:after{
+		font-family: 'FontAwesome';
+		content: '\f008';
+	}
+	
+	.content .content-avatar {
+		padding-left: 7px;
+		padding-right: 8px;
+		margin-bottom: 80px;
+	}
+	
+	.content .content-item {
+		width: 96%;
+	}
+	
+	.content-end .content-avatar {
+		margin-bottom: -120px;
+	}
+	
+	.content-end .btn {
+		display: block;
+	}
+
+	/* photo */
+	#photos #wedding-photo .carousel-control {
+		color: #ffffff;
+		text-shadow: none;
+		width: 40px;
+		height: 40px;
+		margin-left: 50px;
+		margin-right: 50px;
+		opacity: 0.8;
+		filter: alpha(opacity=80);
+	}
+
+	#photos #wedding-photo .carousel-control span,
+	#photos #wedding-photo .carousel-control i {
+		position: absolute;
+		top: 10px;
+		left: 0;
+		z-index: 5;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin-left: 0;
+	}
+
+	#photos #wedding-photo .carousel-control.right {
+		right: 0;
+		left: auto;
+	}
+	
+	#photos #wedding-photo .carousel-control:hover,
+	#photos #wedding-photo .carousel-control:focus {
+		color: #fff;
+		text-decoration: none;
+		background: #a4c956 !important;
+		opacity: 0.9;
+		filter: alpha(opacity=90);
+	}
+
+	#photos #wedding-photo .carousel-control.left,
+	#photos #wedding-photo .carousel-control.right {
+		background-image: none;
+		background: #212834;
+		margin-top: -10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#photos #wedding-photo .carousel-control.left {
+		left: auto;
+		right: 0;
+		margin-right: 40px;
+	}
+
+	#photos #wedding-photo .carousel-control.right {
+		right: 0;
+		left: auto;
+	}
+
+	#photos .photo-gallery{
+		width: 100%;
+		height: 300px;
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 600px){
+	#home,
+	#about,
+	#ceremony,
+	#story,
+	#contact{
+		padding-top: 100px;
+	}
+
+	#home h2{
+		padding-top: 0;
+		font-size: 60px;
+		line-height: 68px;
+	}
+
+	#home h3:before,
+	#ceremony h3:before{
+		content: "";
+		left: 12%;
+	}
+
+	#home h3:after,
+	#ceremony h3:after{
+		content: "";
+		right: 12%;
+	}
+
+	#photos .photo-gallery{
+		width: 100%;
+		height: 200px;
+		margin-top: 30px;
+	}
+}
