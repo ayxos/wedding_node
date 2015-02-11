@@ -34,15 +34,20 @@ $(document).ready(function() {
 		  subject: "Nuevo mensaje",
 		  text: $('#form_subject').val()
 		};
-		$.post('send', JSON.stringify(jsonData))
-    		.done(function(data) {
+
+        $.ajax({
+            url: 'send',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(jsonData),
+            dataType: 'json',
+            complete: function (data) {
 			  console.log(data);
 			  $('.alert').removeClass('hidden')
 			  setTimeout(function() {
 			  	$('.alert').addClass('hidden')
 			  }, 1000);
-			}).fail(function() {
-				alert( "error" );
+            }
 		});
 
     });
@@ -63,3 +68,4 @@ $(document).ready(function() {
 	}
 	
 });
+

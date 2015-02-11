@@ -56,21 +56,21 @@ module.exports = function(grunt) {
     clean: ['public/*.html'],
 
     // turn jade templates into html files
-    jade: {
-      compile: {
-        options: {
-          client: false,
-          pretty: true
-        },
-        files: [ {
-          cwd: "public/templates",
-          src: "**/*.jade",
-          dest: "public/",
-          expand: true,
-          ext: ".html"
-        } ]
-      }
-    },
+    // jade: {
+    //   compile: {
+    //     options: {
+    //       client: false,
+    //       pretty: true
+    //     },
+    //     files: [ {
+    //       cwd: "public/templates",
+    //       src: "**/*.jade",
+    //       dest: "public/",
+    //       expand: true,
+    //       ext: ".html"
+    //     } ]
+    //   }
+    // },
 
     // let users define command list when a file changes or its been added
     watch: {
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
   });
 
   //default task
-  grunt.registerTask('default', ['clean', 'jade', 'watch' ]);
+  grunt.registerTask('default', ['clean', 'jade']);
 
 
 };
