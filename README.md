@@ -72,9 +72,9 @@ config.mail = {
 	}
 ```
 Everytime that someone wants to send a message...
-{<2>}![ScreenShot](http://i61.tinypic.com/15qamx1.png)
-...the system will inform you (wedding couple or someoneelse) through email about it.
-{<3>}![ScreenShot](http://i58.tinypic.com/b3sqw4.png)
+<br>{<2>}![ScreenShot](http://i61.tinypic.com/15qamx1.png)
+<br>...the system will inform you (wedding couple or someoneelse) through email about it.
+<br>{<3>}![ScreenShot](http://i58.tinypic.com/b3sqw4.png)
 
 # Report mail notifications
 Get an email everytime that someone try to access using wrong pass.
@@ -89,9 +89,9 @@ config.report = {
 
 ```
 So, everytime that someone will try to enter typing a wrong pass...
-{<4>}![ScreenShot](http://i60.tinypic.com/2uzsbc9.png)
-...the system will inform you (wedding couple or someoneelse) through email about it.
-{<5>}![ScreenShot](http://i62.tinypic.com/x211qs.png)
+<br>{<4>}![ScreenShot](http://i60.tinypic.com/2uzsbc9.png)
+<br>...the system will inform you (wedding couple or someoneelse) through email about it.
+<br>{<5>}![ScreenShot](http://i62.tinypic.com/x211qs.png)
 
 
 # Main page with Floating navbar
