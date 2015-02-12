@@ -126,17 +126,3 @@ node app.js
 ```
 
 project : https://github.com/cybermarkus1/wedding_node
-
-<style>
-  .post-content .full-img {
-  	box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
-  }
-  .post-content .full-img {
-    max-width: 90%;
-    margin: auto auto;
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-</style>
-
-
