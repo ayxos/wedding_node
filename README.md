@@ -22,6 +22,8 @@ Technologies:
 * **Keymetrics** - Realtime monitoring and Application management for NodeJS
 
 # Config file
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ayxos/wedding_node.svg)](https://greenkeeper.io/)
 In order to run the system you just need to set some minor values inside config.js file
 
 ````
